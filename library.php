@@ -12,4 +12,6 @@ usort($output, function($a, $b){
 
 /* Bagi data 1-10 */
 $listVideo  = array_slice($getVideo, 0, 10);
+
+/*capctha*/
 ?>

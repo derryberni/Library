@@ -1,0 +1,15 @@
+<!--
+  Ini dipasang untuk form yang membutuhkan required element
+  Safari IOS versi tertentu, tidak bisa menggunakan required dengan menggunakan ini :
+  https://afarkas.github.io/webshim/demos/
+  bisa menggunakan ini sebagai standart disemua browser
+-->
+
+<!-- S Required Webshim For IOS -->
+<script src="vendor/webshim/polyfiller.js"></script>
+<script type="text/javascript">
+  webshim.activeLang('en');
+  webshims.polyfill('forms');
+  webshims.cfg.no$Switch = true;
+</script>
+<!-- E Required Webshim For IOS -->
